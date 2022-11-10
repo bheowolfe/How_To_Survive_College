@@ -737,7 +737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Proceed to live with your parents.
+  m_text: 'start now '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1146,7 +1146,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Scene 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &230080885
@@ -1601,8 +1601,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You are living with your parents for free, but you won't have freedom,
-    can't call friends over or have parties.
+  m_Text: you just got your first assingment which is a 10 page paper due in 2 weeks.
 --- !u!222 &480519691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2712,7 +2711,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Game
+          m_StringArgument: Scene2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1063766806
@@ -2963,7 +2962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: go back.
+  m_text: do it later, making new friends is more important
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3364,7 +3363,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d1dc597603c541248b0e86c7e30c5665, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 239e170e66ea641d1a22a1a6cc22eb09, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3383,8 +3382,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856978933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0604, y: -0.287, z: 0}
-  m_LocalScale: {x: 2.9816997, y: 2.8895752, z: 2.9503176}
+  m_LocalPosition: {x: -0.124, y: -0.0006, z: 0}
+  m_LocalScale: {x: 1.1, y: 1.0015229, z: 1.0817833}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -3420,8 +3419,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  maxWealth: 100
+  maxEnergy: 100
+  maxSocial: 100
+  maxAcademic: 100
   currentHealth: 0
+  currentWealth: 0
+  currentEnergy: 0
+  currentSocial: 0
+  currentAcademic: 0
   healthBar: {fileID: 703788841}
+  wealthBar: {fileID: 0}
+  energyBar: {fileID: 0}
+  socialBar: {fileID: 0}
+  academicBar: {fileID: 0}
 --- !u!4 &1864379925
 Transform:
   m_ObjectHideFlags: 0
