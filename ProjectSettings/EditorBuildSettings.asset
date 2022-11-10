@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/TechnoGami/2d UI button/ExmpleScene/TechnoGami1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/123.unity
+    path: Assets/Scenes/Start.unity
     guid: 05ac8bf56eaa9f94a9ca32110f32c007
   - enabled: 1
     path: Assets/Scenes/PreGameSlide.unity
     guid: 3752f54f0d2779641b2e5f7823bc1923
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 3daf5c3eb59aa4d24b565a2b0ca56abd
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: de79e07e6677c7748b2f73c6d26d742c

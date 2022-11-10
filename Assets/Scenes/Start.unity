@@ -836,22 +836,20 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
-    m_FontSize: 24
+    m_FontSize: 32
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Can you survive as a college student? How can a college student survive?
-    How do college students survive poor? Is life hard in college? Is it okay to
-    be lonely in college? How do you survive socially in college?
-
-'
+  m_Text: "Can you survive as a college student? How can a college student survive?
+    Is life hard in college? Is it okay to be lonely in college? \nThis game will
+    teach you about college and answer all your questions.\n"
 --- !u!222 &480519691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -877,8 +875,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -191.85593, y: -230.33203}
-  m_SizeDelta: {x: 751.0291, y: 120.8704}
+  m_AnchoredPosition: {x: -148.12, y: -240.93}
+  m_SizeDelta: {x: 838.5, y: 142.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &507734165
 GameObject:
@@ -917,7 +915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 110}
+  m_AnchoredPosition: {x: -1.000845, y: 83.00018}
   m_SizeDelta: {x: 120, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507734167
@@ -1119,7 +1117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 60}
+  m_AnchoredPosition: {x: -1.000845, y: 33.00018}
   m_SizeDelta: {x: 120, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729159572
@@ -1481,7 +1479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 10}
+  m_AnchoredPosition: {x: -1.000845, y: -16.99982}
   m_SizeDelta: {x: 120, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &966943479
@@ -1813,8 +1811,8 @@ RectTransform:
   m_GameObject: {fileID: 1076610646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.49, y: 1.49, z: 1.49}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 100120093}
   m_Father: {fileID: 0}
@@ -1954,7 +1952,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 230}
+  m_AnchoredPosition: {x: -1, y: 203}
   m_SizeDelta: {x: 172.5409, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326521979
@@ -2076,7 +2074,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 160}
+  m_AnchoredPosition: {x: -1.000845, y: 133.00018}
   m_SizeDelta: {x: 120, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375105052
@@ -2482,8 +2480,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -189.56079, y: -250.31203}
-  m_SizeDelta: {x: 863.7283, y: 222.073}
+  m_AnchoredPosition: {x: -145.83, y: -259.59}
+  m_SizeDelta: {x: 951.19, y: 240.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063476407
 MonoBehaviour:

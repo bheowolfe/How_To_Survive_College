@@ -652,7 +652,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
-    m_FontSize: 35
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -663,9 +663,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Now that you graduated highschool, it''s important to know what you will
-    face in college but don''t worry we got you covered. In this game you will learn
-    the basics on how to survive in college.
+  m_Text: 'now that you are ready for the next step, it''s important to know what
+    you will face in college but don''t worry we got you covered. In this game you
+    will learn the basics on how to survive in college.
 
 '
 --- !u!222 &480519691
@@ -693,8 +693,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.27997, y: -206.05002}
-  m_SizeDelta: {x: 904.32, y: 206.03}
+  m_AnchoredPosition: {x: -35.59, y: -175.07}
+  m_SizeDelta: {x: 1027.4, y: 267.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &859242605
 GameObject:
@@ -1016,7 +1016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Begin
+  m_text: Next
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1131,8 +1131,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -393, y: -158}
-  m_SizeDelta: {x: 654.72, y: 82.52}
+  m_AnchoredPosition: {x: -360.17996, y: -158}
+  m_SizeDelta: {x: 720.36, y: 82.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1740119725
 MonoBehaviour:
@@ -1503,8 +1503,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.28, y: -206.05}
-  m_SizeDelta: {x: 1017.79, y: 329.94}
+  m_AnchoredPosition: {x: -17.17, y: -206.05}
+  m_SizeDelta: {x: 1104.01, y: 329.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063476407
 MonoBehaviour:
