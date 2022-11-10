@@ -5,7 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/TechnoGami/2d UI button/ExmpleScene/TechnoGami1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/123.unity
+    guid: 05ac8bf56eaa9f94a9ca32110f32c007
+  - enabled: 1
+    path: Assets/PreGameSlide.unity
+    guid: 3752f54f0d2779641b2e5f7823bc1923
+  - enabled: 1
+    path: Assets/Game.unity
+    guid: de79e07e6677c7748b2f73c6d26d742c
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 1b2634a3e62ccb340a57de56afb41287
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: a608e126de8f62948a43ae2dc25f7aed
   m_configObjects: {}
