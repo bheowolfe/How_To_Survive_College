@@ -737,7 +737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '(FREE) Live with mom and dad '
+  m_text: Eat healthy (150$)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1147,7 +1147,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Scene 1
+          m_StringArgument: Healthy
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 230080887}
@@ -1212,10 +1212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -20
-  wealth: 0
-  energy: 0
-  social: -20
+  health: 10
+  wealth: -15
+  energy: 10
+  social: 0
   academic: 0
   happiness: 0
   grade: 0
@@ -1640,9 +1640,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You're off to your college life journey, now do you want to live with your
-    parents or rent a dorm? living with your parents will be free, living in a  dorm
-    will cost you money but you will be happier.
+  m_Text: 'you need to pick a meal plan for this week, you can choose cook your own
+    meals or buy food around the campus '
 --- !u!222 &480519691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2781,7 +2780,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Scene 2
+          m_StringArgument: FastFood
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1063766808}
@@ -2846,9 +2845,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  wealth: -35
-  energy: 0
+  health: -5
+  wealth: -8
+  energy: -10
   social: 0
   academic: 0
   happiness: 0
@@ -3070,7 +3069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (1000$) Live in dorms
+  m_text: Fast food (75$)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3471,7 +3470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1cc2bddbeb4fb694489f0b7622d9428b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 92c51a41f7b6e634cb7d0dd8baf074f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3490,7 +3489,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1856978933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.59, y: 0.02, z: 0}
+  m_LocalPosition: {x: -0.124, y: -0.0006, z: 0}
   m_LocalScale: {x: 0.46, y: 0.41881865, z: 0.4523821}
   m_ConstrainProportionsScale: 1
   m_Children: []

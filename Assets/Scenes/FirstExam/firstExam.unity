@@ -737,7 +737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '(FREE) Live with mom and dad '
+  m_text: go party
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1147,7 +1147,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Scene 1
+          m_StringArgument: Party
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 230080887}
@@ -1212,11 +1212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -20
-  wealth: 0
-  energy: 0
-  social: -20
-  academic: 0
+  health: -5
+  wealth: -5
+  energy: -10
+  social: 10
+  academic: -10
   happiness: 0
   grade: 0
   healthBar: {fileID: 0}
@@ -1640,9 +1640,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You're off to your college life journey, now do you want to live with your
-    parents or rent a dorm? living with your parents will be free, living in a  dorm
-    will cost you money but you will be happier.
+  m_Text: you have your first exam in 5 days but your friends invited you to party
+    this weekend
 --- !u!222 &480519691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2781,7 +2780,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Scene 2
+          m_StringArgument: StayHomeStudy
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1063766808}
@@ -2847,10 +2846,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  wealth: -35
+  wealth: 0
   energy: 0
-  social: 0
-  academic: 0
+  social: -10
+  academic: 15
   happiness: 0
   grade: 0
   healthBar: {fileID: 0}
@@ -3070,7 +3069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (1000$) Live in dorms
+  m_text: stay home and study
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3471,7 +3470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1cc2bddbeb4fb694489f0b7622d9428b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 958890cbebebd374b9b87bd1bef6e4cf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3491,7 +3490,7 @@ Transform:
   m_GameObject: {fileID: 1856978933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.59, y: 0.02, z: 0}
-  m_LocalScale: {x: 0.46, y: 0.41881865, z: 0.4523821}
+  m_LocalScale: {x: 0.49999997, y: 0.45523766, z: 0.49171963}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}

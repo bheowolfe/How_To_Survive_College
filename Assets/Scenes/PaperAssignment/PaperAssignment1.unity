@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 113070345}
   - component: {fileID: 113070344}
   m_Layer: 5
-  m_Name: MusicButtons
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1065,6 +1065,7 @@ GameObject:
   - component: {fileID: 230080886}
   - component: {fileID: 230080885}
   - component: {fileID: 230080884}
+  - component: {fileID: 230080887}
   m_Layer: 5
   m_Name: choice 1
   m_TagString: Untagged
@@ -1146,6 +1147,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: buyBook
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 230080887}
+        m_TargetAssemblyTypeName: ChangeStats, Assembly-CSharp
+        m_MethodName: UpdateStat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1187,6 +1200,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 230080882}
   m_CullTransparentMesh: 1
+--- !u!114 &230080887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230080882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  wealth: 0
+  energy: -15
+  social: -15
+  academic: 0
+  happiness: 0
+  grade: 0
+  healthBar: {fileID: 0}
+  wealthBar: {fileID: 0}
+  energyBar: {fileID: 0}
+  socialBar: {fileID: 0}
+  academicBar: {fileID: 0}
+  player: {fileID: 0}
+  script: {fileID: 0}
 --- !u!1 &243569207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,6 +2697,7 @@ GameObject:
   - component: {fileID: 1063766807}
   - component: {fileID: 1063766806}
   - component: {fileID: 1063766805}
+  - component: {fileID: 1063766808}
   m_Layer: 5
   m_Name: choice 2
   m_TagString: Untagged
@@ -2739,6 +2779,18 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+          m_StringArgument: SkipThePaper
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1063766808}
+        m_TargetAssemblyTypeName: ChangeStats, Assembly-CSharp
+        m_MethodName: UpdateStat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -2780,6 +2832,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063766803}
   m_CullTransparentMesh: 1
+--- !u!114 &1063766808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063766803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  wealth: 0
+  energy: -15
+  social: 10
+  academic: -15
+  happiness: 0
+  grade: 0
+  healthBar: {fileID: 0}
+  wealthBar: {fileID: 0}
+  energyBar: {fileID: 0}
+  socialBar: {fileID: 0}
+  academicBar: {fileID: 0}
+  player: {fileID: 0}
+  script: {fileID: 0}
 --- !u!1 &1114037349
 GameObject:
   m_ObjectHideFlags: 0

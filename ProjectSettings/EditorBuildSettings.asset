@@ -29,4 +29,58 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PaperAssignment/PaperAssignment1.unity
     guid: 0162664252cb34a7dbc96f501e3b7bd1
+  - enabled: 1
+    path: Assets/Scenes/PaperAssignment/SkipThePaper.unity
+    guid: 1156cf58c8b7d46459c971ed90aaf96c
+  - enabled: 1
+    path: Assets/Scenes/PaperAssignment/buyBook.unity
+    guid: 380d7816df25ee744b24973d1e9887f8
+  - enabled: 1
+    path: Assets/Scenes/PaperAssignment/DoThePaper.unity
+    guid: 599b1a96f93525f43842b45c458cfbac
+  - enabled: 1
+    path: Assets/Scenes/MealPlan/MealPlan.unity
+    guid: be5d3396670ed454690e5e8b24b18d7a
+  - enabled: 1
+    path: Assets/Scenes/MealPlan/Healthy.unity
+    guid: 398878baeaa721f4d9dc9884fee090ec
+  - enabled: 1
+    path: Assets/Scenes/MealPlan/FastFood.unity
+    guid: 2610927c17cf4614ab5e9038011e0fe7
+  - enabled: 1
+    path: Assets/Scenes/FriendsOrHW/FriendsOrHW.unity
+    guid: 042bbe18e853530459d14a12aa45a53e
+  - enabled: 1
+    path: Assets/Scenes/FriendsOrHW/homework.unity
+    guid: 2b4bf63b7c5d920468d1268f3db74ac5
+  - enabled: 1
+    path: Assets/Scenes/FriendsOrHW/friends.unity
+    guid: 9dbfe19ed38cdec42b0dc2fdbe03204c
+  - enabled: 1
+    path: Assets/Scenes/gym/gymMembership.unity
+    guid: 1f96908b65832514cba2508e2c4336ce
+  - enabled: 1
+    path: Assets/Scenes/gym/yesGym.unity
+    guid: fe6bd2bc18839f445ac334a43b7354f0
+  - enabled: 1
+    path: Assets/Scenes/gym/noGym.unity
+    guid: 43f6942f2ddfaa14e9df750e76ac7567
+  - enabled: 1
+    path: Assets/Scenes/getJob/TeachingJob.unity
+    guid: a28a646e9355a104383d7e7cbac7f8ea
+  - enabled: 1
+    path: Assets/Scenes/getJob/getJob.unity
+    guid: 66cb74f6a6468b84bb900ef7730a4c13
+  - enabled: 1
+    path: Assets/Scenes/getJob/BakerJob.unity
+    guid: 5ca4d32698536404bb1e740276f7f618
+  - enabled: 1
+    path: Assets/Scenes/FirstExam/firstExam.unity
+    guid: b41e5f873a5da2f4cbf01638065b4c88
+  - enabled: 1
+    path: Assets/Scenes/FirstExam/StayHomeStudy.unity
+    guid: 6d6092ef8a0a16e41af15752d15a01f2
+  - enabled: 1
+    path: Assets/Scenes/FirstExam/Party.unity
+    guid: 9c3a880bc22e56e4c9aa1b3e9fc57872
   m_configObjects: {}
