@@ -24,10 +24,16 @@ public class Player : MonoBehaviour
 	public SocialBar socialBar;
 	public AcademicBar academicBar;
 
+	public static Player Instance;
 
     // Start is called before the first frame update
-    void Start()
-    {
+	void Awake() {
+		if(Instance == null) {
+			DontDestroyOnLoad(this);
+			Instance = this;
+		}
+		else
+			Destroy(gameObject);
 		currentHealth = maxHealth;
 		currentWealth = maxWealth;
 		currentEnergy = maxEnergy;
@@ -39,6 +45,20 @@ public class Player : MonoBehaviour
 		energyBar.SetMaxEnergy(maxEnergy);
 		socialBar.SetMaxSocial(maxSocial);
 		academicBar.SetMaxAcademic(maxAcademic);
+	}
+    void Start()
+    {
+		// currentHealth = maxHealth;
+		// currentWealth = maxWealth;
+		// currentEnergy = maxEnergy;
+		// currentSocial = maxSocial;
+		// currentAcademic = maxAcademic;
+
+		// healthBar.SetMaxHealth(maxHealth);	
+		// wealthBar.SetMaxWealth(maxWealth);
+		// energyBar.SetMaxEnergy(maxEnergy);
+		// socialBar.SetMaxSocial(maxSocial);
+		// academicBar.SetMaxAcademic(maxAcademic);
     }
 
     // Update is called once per frame

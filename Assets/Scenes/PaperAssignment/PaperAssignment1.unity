@@ -2448,6 +2448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 930359163}
   - component: {fileID: 930359162}
+  - component: {fileID: 930359164}
   m_Layer: 0
   m_Name: SceneControl
   m_TagString: Untagged
@@ -2467,6 +2468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20dabfa7b22382a4cbe6875bf9e149e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  script: {fileID: 930359164}
 --- !u!4 &930359163
 Transform:
   m_ObjectHideFlags: 0
@@ -2482,6 +2484,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &930359164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930359161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
+  wealth: 0
+  energy: 0
+  social: 0
+  academic: 0
+  happiness: 0
+  grade: 0
+  healthBar: {fileID: 0}
+  wealthBar: {fileID: 0}
+  energyBar: {fileID: 0}
+  socialBar: {fileID: 0}
+  academicBar: {fileID: 0}
+  player: {fileID: 0}
+  script: {fileID: 0}
 --- !u!1 &979040743
 GameObject:
   m_ObjectHideFlags: 0
