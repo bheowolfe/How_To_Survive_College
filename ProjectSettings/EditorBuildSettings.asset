@@ -9,78 +9,153 @@ EditorBuildSettings:
     path: Assets/TechnoGami/2d UI button/ExmpleScene/TechnoGami1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/Scenes/0. StartGame/Start.unity
     guid: 05ac8bf56eaa9f94a9ca32110f32c007
   - enabled: 1
-    path: Assets/Scenes/PreGameSlide.unity
+    path: Assets/Scenes/0. StartGame/PreGameSlide.unity
     guid: 3752f54f0d2779641b2e5f7823bc1923
   - enabled: 1
-    path: Assets/Scenes/Instructions.unity
+    path: Assets/Scenes/0. StartGame/Instructions.unity
     guid: 3daf5c3eb59aa4d24b565a2b0ca56abd
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/0. StartGame/Game.unity
     guid: de79e07e6677c7748b2f73c6d26d742c
   - enabled: 1
-    path: Assets/Scenes/PlaceToLive/Scene 1.unity
+    path: Assets/Scenes/1. PlaceToLive/Scene 1.unity
     guid: 270e86eab00b8496c91dc21a76d749c3
   - enabled: 1
-    path: Assets/Scenes/PlaceToLive/Scene 2.unity
+    path: Assets/Scenes/1. PlaceToLive/Scene 2.unity
     guid: e78c1f926b73747119863a33a1178768
   - enabled: 1
-    path: Assets/Scenes/PaperAssignment/PaperAssignment1.unity
+    path: Assets/Scenes/2. PaperAssignment/PaperAssignment1.unity
     guid: 0162664252cb34a7dbc96f501e3b7bd1
   - enabled: 1
-    path: Assets/Scenes/PaperAssignment/SkipThePaper.unity
+    path: Assets/Scenes/2. PaperAssignment/SkipThePaper.unity
     guid: 1156cf58c8b7d46459c971ed90aaf96c
   - enabled: 1
-    path: Assets/Scenes/PaperAssignment/buyBook.unity
+    path: Assets/Scenes/2. PaperAssignment/buyBook.unity
     guid: 380d7816df25ee744b24973d1e9887f8
   - enabled: 1
-    path: Assets/Scenes/PaperAssignment/DoThePaper.unity
+    path: Assets/Scenes/2. PaperAssignment/DoThePaper.unity
     guid: 599b1a96f93525f43842b45c458cfbac
   - enabled: 1
-    path: Assets/Scenes/MealPlan/MealPlan.unity
+    path: Assets/Scenes/3. MealPlan/MealPlan.unity
     guid: be5d3396670ed454690e5e8b24b18d7a
   - enabled: 1
-    path: Assets/Scenes/MealPlan/Healthy.unity
+    path: Assets/Scenes/3. MealPlan/Healthy.unity
     guid: 398878baeaa721f4d9dc9884fee090ec
   - enabled: 1
-    path: Assets/Scenes/MealPlan/FastFood.unity
+    path: Assets/Scenes/3. MealPlan/FastFood.unity
     guid: 2610927c17cf4614ab5e9038011e0fe7
   - enabled: 1
-    path: Assets/Scenes/FriendsOrHW/FriendsOrHW.unity
+    path: Assets/Scenes/4. FriendsOrHW/FriendsOrHW.unity
     guid: 042bbe18e853530459d14a12aa45a53e
   - enabled: 1
-    path: Assets/Scenes/FriendsOrHW/homework.unity
+    path: Assets/Scenes/4. FriendsOrHW/homework.unity
     guid: 2b4bf63b7c5d920468d1268f3db74ac5
   - enabled: 1
-    path: Assets/Scenes/FriendsOrHW/friends.unity
+    path: Assets/Scenes/4. FriendsOrHW/friends.unity
     guid: 9dbfe19ed38cdec42b0dc2fdbe03204c
   - enabled: 1
-    path: Assets/Scenes/gym/gymMembership.unity
+    path: Assets/Scenes/5. gym/gymMembership.unity
     guid: 1f96908b65832514cba2508e2c4336ce
   - enabled: 1
-    path: Assets/Scenes/gym/yesGym.unity
+    path: Assets/Scenes/5. gym/yesGym.unity
     guid: fe6bd2bc18839f445ac334a43b7354f0
   - enabled: 1
-    path: Assets/Scenes/gym/noGym.unity
+    path: Assets/Scenes/5. gym/noGym.unity
     guid: 43f6942f2ddfaa14e9df750e76ac7567
   - enabled: 1
-    path: Assets/Scenes/getJob/TeachingJob.unity
+    path: Assets/Scenes/6. getJob/TeachingJob.unity
     guid: a28a646e9355a104383d7e7cbac7f8ea
   - enabled: 1
-    path: Assets/Scenes/getJob/getJob.unity
+    path: Assets/Scenes/6. getJob/getJob.unity
     guid: 66cb74f6a6468b84bb900ef7730a4c13
   - enabled: 1
-    path: Assets/Scenes/getJob/BakerJob.unity
+    path: Assets/Scenes/6. getJob/BakerJob.unity
     guid: 5ca4d32698536404bb1e740276f7f618
   - enabled: 1
-    path: Assets/Scenes/FirstExam/firstExam.unity
+    path: Assets/Scenes/7. FirstExam/firstExam.unity
     guid: b41e5f873a5da2f4cbf01638065b4c88
   - enabled: 1
-    path: Assets/Scenes/FirstExam/StayHomeStudy.unity
+    path: Assets/Scenes/7. FirstExam/StayHomeStudy.unity
     guid: 6d6092ef8a0a16e41af15752d15a01f2
   - enabled: 1
-    path: Assets/Scenes/FirstExam/Party.unity
+    path: Assets/Scenes/7. FirstExam/Party.unity
     guid: 9c3a880bc22e56e4c9aa1b3e9fc57872
+  - enabled: 1
+    path: Assets/Scenes/8. MealPlan/MealPlan2.unity
+    guid: bfd1dfe753710154797221dcafdea503
+  - enabled: 1
+    path: Assets/Scenes/8. MealPlan/Healthy2.unity
+    guid: 3abb6f1c583adc249a01081de8f986e7
+  - enabled: 1
+    path: Assets/Scenes/8. MealPlan/FastFood2.unity
+    guid: fda2635cc890aa340946bce946933dd1
+  - enabled: 1
+    path: Assets/Scenes/9. VideoGame/copVideoGame.unity
+    guid: c1b482a090c38b0478e562e9273e076c
+  - enabled: 1
+    path: Assets/Scenes/9. VideoGame/playingGames2.unity
+    guid: f0893e30622e7b241b42251585f8ead1
+  - enabled: 1
+    path: Assets/Scenes/9. VideoGame/playingGames.unity
+    guid: 9151a892a20943c43ab9b8bec84d903f
+  - enabled: 1
+    path: Assets/Scenes/9. VideoGame/NoGame.unity
+    guid: b82abbe4cabd8eb46be97dd0d18f4ffb
+  - enabled: 1
+    path: Assets/Scenes/9. VideoGame/examDayGood.unity
+    guid: 391f9857abe16544f8b5cf7e8458125b
+  - enabled: 1
+    path: Assets/Scenes/9. VideoGame/examDayBad.unity
+    guid: fcbaa54bef397b24ea3fe5ef79d1e86b
+  - enabled: 1
+    path: Assets/Scenes/10. PartyorRest/partyOrRest.unity
+    guid: ab86fdcb8ee4d2b458b74f14ff9bb201
+  - enabled: 1
+    path: Assets/Scenes/10. PartyorRest/party!!.unity
+    guid: ace105e32edc2ee4ead51f9006744277
+  - enabled: 1
+    path: Assets/Scenes/10. PartyorRest/rest...unity
+    guid: 961b296ddb8aabc4083a4ffe439e29f9
+  - enabled: 1
+    path: Assets/Scenes/11. Payday/payday.unity
+    guid: e34cbd4ddb00a074293bc9afef13d492
+  - enabled: 1
+    path: Assets/Scenes/12. MealPlan/MealPlan3.unity
+    guid: 4cc59ce676ff76d4f8b2072f75442aeb
+  - enabled: 1
+    path: Assets/Scenes/12. MealPlan/Healthy3.unity
+    guid: 7b5f2a92c83e7e546955ff99693093ad
+  - enabled: 1
+    path: Assets/Scenes/12. MealPlan/FastFood3.unity
+    guid: 4f871004040b15242ac328167eb87b0d
+  - enabled: 1
+    path: Assets/Scenes/RandomScenes/Random 1.unity
+    guid: dceef98045d577b4a898a853bc40a6b6
+  - enabled: 1
+    path: Assets/Scenes/RandomScenes/Random 2.unity
+    guid: 202db73a54e263c47b0bf707a5f0ea89
+  - enabled: 1
+    path: Assets/Scenes/RandomScenes/Random 3.unity
+    guid: dc30d857eb7abff4e891683bc4171047
+  - enabled: 1
+    path: Assets/Scenes/RandomScenes/Random 4.unity
+    guid: d372787f3101e8042a6bcb6a05c15dcc
+  - enabled: 1
+    path: Assets/Scenes/RandomScenes/Random 5.unity
+    guid: ec779ae822023e2498bcf34fe83bc2e9
+  - enabled: 1
+    path: Assets/Scenes/13. AfterschoolEvent/declineEvent.unity
+    guid: fad0bbba4f9c23948a0c65eccd4e3235
+  - enabled: 1
+    path: Assets/Scenes/13. AfterschoolEvent/AfterschoolEvent.unity
+    guid: d8659e55af14152499e4a8c0a0bdbe4f
+  - enabled: 1
+    path: Assets/Scenes/13. AfterschoolEvent/acceptEvent.unity
+    guid: b8a4473d4dd314d4485335dde171d87f
+  - enabled: 1
+    path: Assets/Scenes/14. finalsWeek/finalsWeek.unity
+    guid: 69b7733c31bcf294eb5acc1adc6c1587
   m_configObjects: {}
