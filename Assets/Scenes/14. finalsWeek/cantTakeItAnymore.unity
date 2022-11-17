@@ -737,7 +737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: study hard
+  m_text: review one last time
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -1147,7 +1147,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: stressFromStudying
+          m_StringArgument: finalsBad
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 230080887}
@@ -1212,11 +1212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -10
+  health: -5
   wealth: 0
-  energy: -10
-  social: -10
-  academic: 10
+  energy: -5
+  social: -5
+  academic: 5
   happiness: 0
   grade: 0
   healthBar: {fileID: 0}
@@ -1813,8 +1813,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: finals week is next week, you want to stay in academic focus for this week
-    to study and pass all your finals
+  m_Text: you feel a massive headache forming, you had to stop studying now otherwise
+    it would have gotten worse
 --- !u!222 &480519691
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3470,7 +3470,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 239e170e66ea641d1a22a1a6cc22eb09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d8e642ce872c98742ac2874c6c634f91, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3490,7 +3490,7 @@ Transform:
   m_GameObject: {fileID: 1856978933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.59, y: 0.02, z: 0}
-  m_LocalScale: {x: 1.12, y: 1.0197324, z: 1.101452}
+  m_LocalScale: {x: 0.35, y: 0.31866637, z: 0.34420374}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
