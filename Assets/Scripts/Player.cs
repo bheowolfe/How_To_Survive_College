@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -10,14 +11,17 @@ public class Player : MonoBehaviour
 	public int maxEnergy = 100;
 	public int maxSocial = 100;
 	public int maxAcademic = 100;
+	
+
 
 	public int currentHealth;
 	public int currentWealth;
 	public int currentEnergy;
 	public int currentSocial;
 	public int currentAcademic;
-
-
+	public int currentHappiness;
+	public int currentGrade;
+ 
 	public HealthBar healthBar;
 	public WealthBar wealthBar;
 	public EnergyBar energyBar;
@@ -39,6 +43,7 @@ public class Player : MonoBehaviour
 		currentEnergy = maxEnergy;
 		currentSocial = maxSocial;
 		currentAcademic = maxAcademic;
+		
 
 		healthBar.SetMaxHealth(maxHealth);	
 		wealthBar.SetMaxWealth(maxWealth);

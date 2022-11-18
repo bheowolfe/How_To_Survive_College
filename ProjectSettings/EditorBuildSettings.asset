@@ -170,4 +170,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/14. finalsWeek/cantTakeItAnymore.unity
     guid: 34da35198881e4243b49fe1d2a1d7b7a
+  - enabled: 1
+    path: Assets/Scenes/15. Finals/finalsBad.unity
+    guid: a729b15be2b3b8b40a511ac72997a1fe
+  - enabled: 1
+    path: Assets/Scenes/15. Finals/finalsGood.unity
+    guid: 0183e18f449cdf74ba8cd047a1258e74
+  - enabled: 1
+    path: Assets/Scenes/15. Finals/GameFinal.unity
+    guid: 2552a1d79ae03a44db19df341ddec015
+  - enabled: 1
+    path: Assets/Scenes/15. Finals/totalScore.unity
+    guid: a357c3a866b7b98469dc1e31355420bb
   m_configObjects: {}

@@ -1212,13 +1212,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -5
+  health: -7
   wealth: -5
-  energy: -5
+  energy: -6
   social: 5
-  academic: -5
-  happiness: 0
-  grade: 0
+  academic: -9
+  happiness: 10
+  grade: -8
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -2851,8 +2851,8 @@ MonoBehaviour:
   energy: 15
   social: -15
   academic: 0
-  happiness: 0
-  grade: 0
+  happiness: 8
+  grade: 8
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -3536,6 +3536,8 @@ MonoBehaviour:
   currentEnergy: 0
   currentSocial: 0
   currentAcademic: 0
+  currentHappiness: 0
+  currentGrade: 0
   healthBar: {fileID: 703788841}
   wealthBar: {fileID: 311669441}
   energyBar: {fileID: 578081937}

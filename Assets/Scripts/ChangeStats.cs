@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ChangeStats : MonoBehaviour
 {
     [SerializeField] int health = 0, wealth = 0, energy = 0, social = 0, academic = 0;
-    [SerializeField] int happiness, grade;
+    [SerializeField] int happiness =50, grade=50;
     [SerializeField] GameObject healthBar, wealthBar, energyBar, socialBar, academicBar;
     [SerializeField] GameObject player;
     [SerializeField] Player script;
@@ -49,6 +49,16 @@ public class ChangeStats : MonoBehaviour
             script.currentAcademic = 0;
         else if(academic + script.currentAcademic > 100)
             script.currentAcademic = 100;
+
+        if(happiness > script.currentHappiness)
+            script.currentHappiness = 0;
+        else if(academic + script.currentHappiness > 100)
+            script.currentHappiness = 100;
+
+        if(grade > script.currentGrade)
+            script.currentGrade = 0;
+        else if(academic + script.currentGrade > 100)
+            script.currentGrade = 100;
     }
 
     // Update is called once per frame
@@ -62,6 +72,8 @@ public class ChangeStats : MonoBehaviour
         script.currentEnergy += energy;
         script.currentSocial += social;
         script.currentAcademic += academic;
+        script.currentHappiness += happiness;
+        script.currentGrade += grade;
         UpdateBar();
         Debug.Log("clicked");
     }

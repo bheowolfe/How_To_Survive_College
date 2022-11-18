@@ -1213,7 +1213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   wealth: 0
-  energy: 0
+  energy: 8
   social: 0
   academic: 0
   happiness: 0
@@ -3220,11 +3220,15 @@ MonoBehaviour:
   maxEnergy: 100
   maxSocial: 100
   maxAcademic: 100
+  maxHappiness: 100
+  maxGrade: 100
   currentHealth: 0
   currentWealth: 0
   currentEnergy: 0
   currentSocial: 0
   currentAcademic: 0
+  currentHappiness: 0
+  currentGrade: 0
   healthBar: {fileID: 703788841}
   wealthBar: {fileID: 311669441}
   energyBar: {fileID: 578081937}

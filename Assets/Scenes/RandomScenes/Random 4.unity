@@ -1352,7 +1352,7 @@ MonoBehaviour:
   energy: -10
   social: 10
   academic: 0
-  happiness: 0
+  happiness: 7
   grade: 0
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
@@ -3153,7 +3153,7 @@ MonoBehaviour:
   energy: -5
   social: -5
   academic: 0
-  happiness: 0
+  happiness: -6
   grade: 0
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
