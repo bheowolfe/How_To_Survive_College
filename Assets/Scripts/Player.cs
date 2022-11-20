@@ -12,8 +12,6 @@ public class Player : MonoBehaviour
 	public int maxSocial = 100;
 	public int maxAcademic = 100;
 	
-
-
 	public int currentHealth;
 	public int currentWealth;
 	public int currentEnergy;
@@ -75,10 +73,5 @@ public class Player : MonoBehaviour
 		// }
     }
 
-	void minusHealth(int damage)
-	{
-		// currentHealth -= damage;
-
-		// healthBar.SetHealth(currentHealth);
-	}
+	
 }
