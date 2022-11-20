@@ -50,6 +50,6 @@ public class showScore : MonoBehaviour
         // {
         //     score.text = "your energy was high: "+ script.currentEnergy;
         // }
-        score.text = "Health: " + script.currentHealth +"\nWealth: " + script.currentWealth +"\nEnergy: " + script.currentEnergy +"\nSocial: " + script.currentSocial + "\nKnowledge: " + script.currentAcademic +"\n\nYour overall happiness was "  + script.currentHappiness + "\n and your grade for this semester was a " + yourGrade;
+        score.text = "Health: " + script.currentHealth +"\nWealth: " + script.currentWealth +"\nEnergy: " + script.currentEnergy +"\nSocial: " + script.currentSocial + "\nKnowledge: " + script.currentAcademic +"\n\nYour overall happiness was: "  + script.currentHappiness + "\n and your grade for this semester was: " + yourGrade;
     }
 }
