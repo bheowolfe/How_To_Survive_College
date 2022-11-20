@@ -13,4 +13,9 @@ public class ChangeScenes : MonoBehaviour
    public void LoadScene(string sceneName){
     SceneManager.LoadScene(sceneName);
    }
+   public void QuitGame()
+   {
+      Application.Quit();
+      Debug.Log("Quit!");
+   }
 }
