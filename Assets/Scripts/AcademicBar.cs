@@ -10,19 +10,22 @@ public class AcademicBar : MonoBehaviour
 	public Gradient gradient;
 	public Image fill;
 
+	void Start() {
+		slider = gameObject.GetComponent<Slider>();
+	}
 	public void SetMaxAcademic(int academic)
 	{
 		slider.maxValue = academic;
 		slider.value = academic;
 
-		fill.color = gradient.Evaluate(1f);
+		// fill.color = gradient.Evaluate(1f);
 	}
 
     public void SetAcademic(int academic)
 	{
 		slider.value = academic;
 
-		fill.color = gradient.Evaluate(slider.normalizedValue);
+		// fill.color = gradient.Evaluate(slider.normalizedValue);
 	}
 
 }

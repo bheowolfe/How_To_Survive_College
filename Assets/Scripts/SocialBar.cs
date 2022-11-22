@@ -10,19 +10,22 @@ public class SocialBar : MonoBehaviour
 	public Gradient gradient;
 	public Image fill;
 
+	void Start() {
+		slider = gameObject.GetComponent<Slider>();
+	}
 	public void SetMaxSocial(int social)
 	{
 		slider.maxValue = social;
 		slider.value = social;
 
-		fill.color = gradient.Evaluate(1f);
+		// fill.color = gradient.Evaluate(1f);
 	}
 
     public void SetSocial(int social)
 	{
 		slider.value = social;
 
-		fill.color = gradient.Evaluate(slider.normalizedValue);
+		// fill.color = gradient.Evaluate(slider.normalizedValue);
 	}
 
 }

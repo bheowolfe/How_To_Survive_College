@@ -41,27 +41,22 @@ public class Player : MonoBehaviour
 		currentEnergy = maxEnergy;
 		currentSocial = maxSocial;
 		currentAcademic = maxAcademic;
-		
-
-		healthBar.SetMaxHealth(maxHealth);	
-		wealthBar.SetMaxWealth(maxWealth);
-		energyBar.SetMaxEnergy(maxEnergy);
-		socialBar.SetMaxSocial(maxSocial);
-		academicBar.SetMaxAcademic(maxAcademic);
-	}
-    void Start()
-    {
-		// currentHealth = maxHealth;
-		// currentWealth = maxWealth;
-		// currentEnergy = maxEnergy;
-		// currentSocial = maxSocial;
-		// currentAcademic = maxAcademic;
 
 		// healthBar.SetMaxHealth(maxHealth);	
 		// wealthBar.SetMaxWealth(maxWealth);
 		// energyBar.SetMaxEnergy(maxEnergy);
 		// socialBar.SetMaxSocial(maxSocial);
 		// academicBar.SetMaxAcademic(maxAcademic);
+
+	}
+    void Start()
+    {
+
+		healthBar.SetMaxHealth(maxHealth);	
+		wealthBar.SetMaxWealth(maxWealth);
+		energyBar.SetMaxEnergy(maxEnergy);
+		socialBar.SetMaxSocial(maxSocial);
+		academicBar.SetMaxAcademic(maxAcademic);
     }
 
     // Update is called once per frame

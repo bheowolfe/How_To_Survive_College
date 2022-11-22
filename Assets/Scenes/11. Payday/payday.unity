@@ -1140,8 +1140,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 930359162}
         m_TargetAssemblyTypeName: ChangeScenes, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3251,6 +3251,8 @@ MonoBehaviour:
   currentEnergy: 0
   currentSocial: 0
   currentAcademic: 0
+  currentHappiness: 0
+  currentGrade: 0
   healthBar: {fileID: 703788841}
   wealthBar: {fileID: 311669441}
   energyBar: {fileID: 578081937}
