@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
 
-	public int maxHealth = 100;
-	public int maxWealth = 100;
-	public int maxEnergy = 100;
-	public int maxSocial = 100;
-	public int maxAcademic = 100;
+	public int maxHealth = 80;
+	public int maxWealth = 80;
+	public int maxEnergy = 80;
+	public int maxSocial = 80;
+	public int maxAcademic = 80;
 	
 	public int currentHealth;
 	public int currentWealth;
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
 		// energyBar.SetMaxEnergy(maxEnergy);
 		// socialBar.SetMaxSocial(maxSocial);
 		// academicBar.SetMaxAcademic(maxAcademic);
-
+		
 	}
     void Start()
     {
@@ -57,6 +57,10 @@ public class Player : MonoBehaviour
 		energyBar.SetMaxEnergy(maxEnergy);
 		socialBar.SetMaxSocial(maxSocial);
 		academicBar.SetMaxAcademic(maxAcademic);
+		
+		currentHappiness = 40;
+		currentGrade = 40;
+		
     }
 
     // Update is called once per frame
