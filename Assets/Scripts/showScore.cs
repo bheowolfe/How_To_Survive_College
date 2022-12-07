@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 
 public class showScore : MonoBehaviour
 {
     public static int scoreValue = 0;
-    Text score;
+    TextMeshProUGUI score;
     [SerializeField] Player script;
     [SerializeField] GameObject player;
     
@@ -20,7 +20,7 @@ public class showScore : MonoBehaviour
     }
     void Start()
     {
-        score = GetComponent<Text> ();
+        score = GetComponent<TextMeshProUGUI> ();
     }
 
     // Update is called once per frame
