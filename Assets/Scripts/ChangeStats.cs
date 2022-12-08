@@ -35,15 +35,19 @@ public class ChangeStats : MonoBehaviour
             SceneManager.LoadScene("LowStatsEnd");
         }
             
-        else if(health + script.currentHealth > 100)
-            script.currentHealth = 100;
+        else if(health + script.currentHealth > 100){
+             script.currentHealth = 100;
+        }
+           
         if(wealth > script.currentWealth){
             script.currentWealth = 0;
             SceneManager.LoadScene("LowStatsEnd");
         }
             
-        else if(wealth + script.currentWealth > 100)
-            script.currentWealth = 100;
+        else if(wealth + script.currentWealth > 100){
+             script.currentWealth = 100;
+        }
+           
         if(energy > script.currentEnergy){
             script.currentEnergy = 0;
             SceneManager.LoadScene("LowStatsEnd");
