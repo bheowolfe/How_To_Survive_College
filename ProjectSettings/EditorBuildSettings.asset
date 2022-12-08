@@ -183,6 +183,9 @@ EditorBuildSettings:
     path: Assets/Scenes/15. Finals/GameFinal.unity
     guid: 2552a1d79ae03a44db19df341ddec015
   - enabled: 1
-    path: Assets/Scenes/15. Finals/totalScore.unity
+    path: Assets/Scenes/15. Finals/LowStatsEnd.unity
     guid: a357c3a866b7b98469dc1e31355420bb
+  - enabled: 1
+    path: Assets/Scenes/15. Finals/totalScore.unity
+    guid: 2fa2bc66b034ed143bdedd259c10d3da
   m_configObjects: {}

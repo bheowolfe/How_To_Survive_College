@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ChangeStats : MonoBehaviour
 {
@@ -29,42 +30,64 @@ public class ChangeStats : MonoBehaviour
     void Start()
     {
         // checks if it goes over or below the gauge min maxs
-        if(health > script.currentHealth)
+        if(health > script.currentHealth){
             script.currentHealth = 0;
+            SceneManager.LoadScene("LowStatsEnd");
+        }
+            
         else if(health + script.currentHealth > 100)
             script.currentHealth = 100;
-        if(wealth > script.currentWealth)
+        if(wealth > script.currentWealth){
             script.currentWealth = 0;
+            SceneManager.LoadScene("LowStatsEnd");
+        }
+            
         else if(wealth + script.currentWealth > 100)
             script.currentWealth = 100;
-        if(energy > script.currentEnergy)
+        if(energy > script.currentEnergy){
             script.currentEnergy = 0;
+            SceneManager.LoadScene("LowStatsEnd");
+        }
+            
         else if(energy + script.currentEnergy > 100)
             script.currentEnergy = 100;
-        if(social > script.currentSocial)
+        if(social > script.currentSocial){
             script.currentSocial = 0;
+            SceneManager.LoadScene("LowStatsEnd");
+        }
         else if(social + script.currentSocial > 100)
             script.currentSocial = 100;
-        if(academic > script.currentAcademic)
+
+        if(academic > script.currentAcademic){
             script.currentAcademic = 0;
+            SceneManager.LoadScene("LowStatsEnd");
+        }
         else if(academic + script.currentAcademic > 100)
             script.currentAcademic = 100;
 
-        if(happiness > script.currentHappiness)
+        if(happiness > script.currentHappiness){
             script.currentHappiness = 0;
+        }
+           
         else if(academic + script.currentHappiness > 100)
             script.currentHappiness = 100;
 
-        if(grade > script.currentGrade)
-            script.currentGrade = 0;
+        if(grade > script.currentGrade){
+            script.currentGrade = 0;   
+        }
+           
         else if(academic + script.currentGrade > 100)
             script.currentGrade = 100;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void restartGame() {
+        script.currentHealth = 100;
+        script.currentWealth = 100;
+        script.currentEnergy = 100;
+        script.currentSocial = 100;
+        script.currentAcademic = 100;
+        script.currentHappiness = 50;
+        script.currentGrade = 50;
     }
     public void UpdateStat() {
         script.currentHealth += health;

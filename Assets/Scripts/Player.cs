@@ -51,12 +51,12 @@ public class Player : MonoBehaviour
 	}
     void Start()
     {
-
 		healthBar.SetMaxHealth(maxHealth);	
 		wealthBar.SetMaxWealth(maxWealth);
 		energyBar.SetMaxEnergy(maxEnergy);
 		socialBar.SetMaxSocial(maxSocial);
 		academicBar.SetMaxAcademic(maxAcademic);
+
     }
 
     // Update is called once per frame
