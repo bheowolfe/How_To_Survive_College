@@ -1214,10 +1214,10 @@ MonoBehaviour:
   health: 0
   wealth: 0
   energy: -15
-  social: -15
+  social: -5
   academic: 0
   happiness: 0
-  grade: 10
+  grade: 15
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -2765,11 +2765,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   wealth: 0
-  energy: -15
-  social: 10
-  academic: -20
-  happiness: 8
-  grade: -8
+  energy: 0
+  social: 15
+  academic: 0
+  happiness: 0
+  grade: 5
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -3176,7 +3176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -5.730011, y: -143.60994}
+  m_AnchoredPosition: {x: -5.7299805, y: -143.60994}
   m_SizeDelta: {x: -214.96997, y: 146.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1252853891
@@ -3322,6 +3322,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: you just got your first assignment which is a 10 page paper due in 2 weeks.
+    Do you want to spend the energy getting it done now or take your time with it
+    while making friends?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}

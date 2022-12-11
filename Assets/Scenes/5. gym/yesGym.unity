@@ -2737,7 +2737,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: great the gym will help you stay in shape and boost your energy & confidence
+  m_text: great the gym will help you stay in shape and boost your energy plus your
+    loving the way you look.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3413,7 +3414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -5.730011, y: -143.60986}
+  m_AnchoredPosition: {x: -5.7299805, y: -143.60986}
   m_SizeDelta: {x: -214.96997, y: 146.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1920418228

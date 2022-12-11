@@ -1135,7 +1135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  wealth: -15
+  wealth: -20
   energy: 10
   social: 0
   academic: 0
@@ -1547,7 +1547,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -5.730011, y: -143.60992}
+  m_AnchoredPosition: {x: -5.7299805, y: -143.60992}
   m_SizeDelta: {x: -214.96997, y: 146.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &467710294
@@ -2446,8 +2446,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: you need to pick a meal plan for this week, you can choose cook your own
-    meals or buy food around the campus this week
+  m_text: you need to pick a meal plan for this week, you can either make your own
+    healthy food or buy cheap fast food from around the campus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2683,7 +2683,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -5
+  health: -15
   wealth: -8
   energy: -10
   social: 0
@@ -3157,8 +3157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 053575bf91386eb4f9516b34de78e7a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundOnIcon: {fileID: 0}
-  soundOffIcon: {fileID: 0}
+  soundOnIcon: {fileID: 1643782339}
+  soundOffIcon: {fileID: 1927458273}
 --- !u!4 &1479990606
 Transform:
   m_ObjectHideFlags: 0

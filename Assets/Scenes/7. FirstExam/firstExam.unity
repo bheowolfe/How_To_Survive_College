@@ -1211,13 +1211,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -9
-  wealth: -5
-  energy: -10
-  social: 10
-  academic: -10
+  health: -20
+  wealth: 0
+  energy: 10
+  social: 15
+  academic: -5
   happiness: 10
-  grade: -10
+  grade: 0
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -1548,7 +1548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -5.730011, y: -143.60986}
+  m_AnchoredPosition: {x: -5.7299805, y: -143.60986}
   m_SizeDelta: {x: -214.96997, y: 146.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356124053
@@ -2451,8 +2451,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: you have your first exam in 5 days but your friends invited you to party
-    this weekend
+  m_text: your friends invited you to party this weekend. One one hand with the flu
+    going around and your first final on Monday you're worried you might end up too
+    sick to study. On the other you really do need a break.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2976,13 +2977,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -5
+  health: 5
   wealth: 0
-  energy: -10
-  social: -10
+  energy: -15
+  social: -15
   academic: 15
-  happiness: -10
-  grade: 18
+  happiness: 0
+  grade: 15
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}

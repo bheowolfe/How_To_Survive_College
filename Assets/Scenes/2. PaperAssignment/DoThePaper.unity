@@ -1216,7 +1216,7 @@ MonoBehaviour:
   social: 0
   academic: 0
   happiness: 0
-  grade: 10
+  grade: 0
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -1817,7 +1817,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: You completed half of the paper, but because you were getting tired, you
-    decided to finish the remaining portion tomorrow.
+    decided to finish the remaining portion tomorrow. At least you know you'll have
+    plenty of time to make it the best paper possible.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3003,7 +3004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -5.730011, y: -143.60995}
+  m_AnchoredPosition: {x: -5.7299805, y: -143.60995}
   m_SizeDelta: {x: -214.96997, y: 146.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1400529245

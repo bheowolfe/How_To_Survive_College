@@ -1212,12 +1212,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  wealth: 45
-  energy: -20
+  wealth: 25
+  energy: -25
   social: 0
   academic: -10
-  happiness: -5
-  grade: -5
+  happiness: 0
+  grade: 0
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -1624,7 +1624,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -5.730011, y: -143.60986}
+  m_AnchoredPosition: {x: -5.7299805, y: -143.60986}
   m_SizeDelta: {x: -214.96997, y: 146.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &424904884
@@ -2739,8 +2739,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: you're worried that you will go broke soon, you need to find a part-time
-    job
+  m_text: 'you''re worried that you will go broke soon, you need to find a part-time
+    job. You found two jobs:
+
+
+    one as a Kindergarden Teacher which while it pays
+    well is going to be very stressfull and will cut into your study time
+
+
+    And
+    another as a Baker which doesn''t pay as much but has shorter hours. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2977,12 +2985,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  wealth: 30
+  wealth: 15
   energy: -15
   social: 0
   academic: -5
-  happiness: -5
-  grade: -5
+  happiness: 0
+  grade: 0
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}

@@ -850,7 +850,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -5.730011, y: -143.60986}
+  m_AnchoredPosition: {x: -5.7299805, y: -143.60986}
   m_SizeDelta: {x: -214.96997, y: 146.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160101347
@@ -1288,13 +1288,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
-  wealth: -6
-  energy: 0
+  health: 0
+  wealth: -5
+  energy: -10
   social: 0
   academic: -10
   happiness: 10
-  grade: -8
+  grade: 0
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -1895,7 +1895,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: a new videogame just came out and a lot of your friends are begging you
-    to buy it and play with them
+    to buy it and play with them. You do have a test the next day but you're doing
+    well in that class and so long as you go over your notes tonight you should be
+    fine
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -2976,13 +2978,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da3e0c1f35f494d49908e1853607c90b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: -5
+  health: 0
   wealth: 0
-  energy: 0
+  energy: 10
   social: -10
   academic: 0
-  happiness: -8
-  grade: 10
+  happiness: -10
+  grade: 5
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
@@ -3200,7 +3202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: tell them you dont have money for games
+  m_text: tell them you dont have time or money for games
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
