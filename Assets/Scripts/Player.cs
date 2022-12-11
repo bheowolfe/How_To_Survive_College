@@ -36,11 +36,11 @@ public class Player : MonoBehaviour
 		}
 		else
 			Destroy(gameObject);
-		currentHealth = maxHealth;
-		currentWealth = maxWealth;
-		currentEnergy = maxEnergy;
-		currentSocial = maxSocial;
-		currentAcademic = maxAcademic;
+		currentHealth = 80;
+		currentWealth = 80;
+		currentEnergy = 80;
+		currentSocial = 80;
+		currentAcademic = 80;
 
 		// healthBar.SetMaxHealth(maxHealth);	
 		// wealthBar.SetMaxWealth(maxWealth);
@@ -56,6 +56,9 @@ public class Player : MonoBehaviour
 		energyBar.SetMaxEnergy(maxEnergy);
 		socialBar.SetMaxSocial(maxSocial);
 		academicBar.SetMaxAcademic(maxAcademic);
+
+		currentHappiness = 20;
+		currentGrade = 40;
 
     }
 

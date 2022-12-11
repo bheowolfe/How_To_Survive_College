@@ -382,7 +382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 941.42, y: 527.98}
+  m_AnchoredPosition: {x: 941.4199, y: 527.98}
   m_SizeDelta: {x: 1304.81, y: 798.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &128623865
@@ -1216,7 +1216,7 @@ MonoBehaviour:
   social: 0
   academic: 0
   happiness: 0
-  grade: 10
+  grade: 5
   healthBar: {fileID: 0}
   wealthBar: {fileID: 0}
   energyBar: {fileID: 0}
