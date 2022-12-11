@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
 
-	public int maxHealth = 80;
-	public int maxWealth = 80;
-	public int maxEnergy = 80;
-	public int maxSocial = 80;
-	public int maxAcademic = 80;
+	public int maxHealth = 100;
+	public int maxWealth = 100;
+	public int maxEnergy = 100;
+	public int maxSocial = 100;
+	public int maxAcademic = 100;
 	
 	public int currentHealth;
 	public int currentWealth;
@@ -36,11 +36,11 @@ public class Player : MonoBehaviour
 		}
 		else
 			Destroy(gameObject);
-		currentHealth = maxHealth;
-		currentWealth = maxWealth;
-		currentEnergy = maxEnergy;
-		currentSocial = maxSocial;
-		currentAcademic = maxAcademic;
+		currentHealth = 80;
+		currentWealth = 80;
+		currentEnergy = 80;
+		currentSocial = 80;
+		currentAcademic = 80;
 
 		// healthBar.SetMaxHealth(maxHealth);	
 		// wealthBar.SetMaxWealth(maxWealth);
