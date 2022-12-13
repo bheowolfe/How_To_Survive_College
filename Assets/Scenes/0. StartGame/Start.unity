@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 144298508}
   - component: {fileID: 144298509}
   m_Layer: 0
-  m_Name: Backgorund Music
+  m_Name: Background Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -833,7 +833,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5dd49b3eacc540408c98eee0de38e0f1, type: 3}
-    m_FontSize: 32
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -844,9 +844,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Can you survive as a college student? How can a college student survive?
-    Is life hard in college? Is it okay to be lonely in college? \nThis game will
-    teach you about college and answer all your questions.\n"
+  m_Text: This game will test your knowledge and see if you have what it takes to
+    survive as a college student.
 --- !u!222 &480519691
 CanvasRenderer:
   m_ObjectHideFlags: 0

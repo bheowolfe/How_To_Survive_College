@@ -188,4 +188,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/15. Finals/totalScore.unity
     guid: 2fa2bc66b034ed143bdedd259c10d3da
+  - enabled: 1
+    path: Assets/Scenes/3. MealPlan/ExamWarning.unity
+    guid: 6c54781b04932d8498628acffbba7b18
+  - enabled: 1
+    path: Assets/Scenes/9. VideoGame/ShowGrade.unity
+    guid: 52ab6f40b4c182b499440af837c556aa
+  - enabled: 1
+    path: Assets/Scenes/8. MealPlan/HalfGameSum.unity
+    guid: bc0def141d89b134eb6fc1280e22b234
   m_configObjects: {}

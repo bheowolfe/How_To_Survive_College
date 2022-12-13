@@ -42,11 +42,6 @@ public class Player : MonoBehaviour
 		currentSocial = 80;
 		currentAcademic = 80;
 
-		// healthBar.SetMaxHealth(maxHealth);	
-		// wealthBar.SetMaxWealth(maxWealth);
-		// energyBar.SetMaxEnergy(maxEnergy);
-		// socialBar.SetMaxSocial(maxSocial);
-		// academicBar.SetMaxAcademic(maxAcademic);
 
 	}
     void Start()
