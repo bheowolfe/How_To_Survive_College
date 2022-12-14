@@ -7,18 +7,18 @@ public class SoundManager : MonoBehaviour
 {
     [SerializeField] Image soundOnIcon;
     [SerializeField] Image soundOffIcon;
-    [SerializeField] Slider volumeSlider;
+    //[SerializeField] Slider volumeSlider;
     private bool muted = false;
 
     // Start is called before the first frame update
     
     void Start()
     {
-        if(!PlayerPrefs.HasKey("musicVolume"))
-        {
-            PlayerPrefs.SetFloat("musicVolume", 1);
-            Load();
-        }
+        // if(!PlayerPrefs.HasKey("musicVolume"))
+        // {
+        //     PlayerPrefs.SetFloat("musicVolume", 1);
+        //     Load();
+        // }
         
         if (!PlayerPrefs.HasKey("muted")) 
         {
@@ -32,11 +32,11 @@ public class SoundManager : MonoBehaviour
         UpdateButtonIcon();
         AudioListener.pause = muted;
     }
-     public void ChangeVolume()
-    {
-        AudioListener.volume = volumeSlider.value;
-        Save();
-    }
+    //  public void ChangeVolume()
+    // {
+    //     AudioListener.volume = volumeSlider.value;
+    //     Save();
+    // }
     public void OnButtonPress()
     {
         if(muted == false)
@@ -71,13 +71,13 @@ public class SoundManager : MonoBehaviour
 
     private void Load()
     {
-        volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
+        //volumeSlider.value = PlayerPrefs.GetFloat("musicVolume");
         muted = PlayerPrefs.GetInt("muted") == 1;
     }
 
     private void Save()
     {
-        PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
+        //PlayerPrefs.SetFloat("musicVolume", volumeSlider.value);
         PlayerPrefs.SetInt("muted", muted ? 1 : 0);
     }
   
