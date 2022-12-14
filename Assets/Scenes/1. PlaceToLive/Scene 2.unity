@@ -2841,9 +2841,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  wealth: 15
+  wealth: 20
   energy: 0
-  social: -15
+  social: 20
   academic: 0
   happiness: 0
   grade: 0
